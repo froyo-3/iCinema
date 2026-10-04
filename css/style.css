@@ -97,7 +97,7 @@
     transform: rotate(2deg);
 }
 
-/* Hamburger button */
+/* Normal hamburger button */
 .navbar-toggler {
     width: 50px;
     height: 50px;
@@ -113,6 +113,24 @@
     justify-content: center;
 
     transition: 0.2s;
+}
+
+/* When hovering */
+.navbar-toggler:hover {
+    background: #D5EFF2;
+    transform: rotate(-2deg);
+}
+
+/* When menu is open */
+.navbar-toggler[aria-expanded="true"] {
+    background: #D5EFF2;
+    transform: rotate(-2deg);
+}
+
+/* When menu is closed */
+.navbar-toggler[aria-expanded="false"] {
+    background: white;
+    transform: none;
 }
 
 /* Make hamburger icon visible */
@@ -211,7 +229,7 @@
         left: 10px;
         right: 10px;
 
-        height: 70px;
+        height: 80px;
 
         background: white;
 
@@ -229,8 +247,8 @@
     }
 
     .bottom-nav-button {
-        width: 80px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
 
         display: flex;
         flex-direction: column;
