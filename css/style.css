@@ -112,25 +112,6 @@ a:hover{
   justify-content: center;
 }
 
-/* When hovering */
-.navbar-toggler:hover {
-    background: #D5EFF2;
-    transform: rotate(-2deg);
-}
-
-/* When menu is open */
-.navbar-toggler[aria-expanded="true"] {
-    background: #D5EFF2;
-    transform: rotate(-2deg);
-}
-
-/* When menu is closed */
-.navbar-toggler[aria-expanded="false"] {
-    background: white;
-    transform: none;
-}
-
-/* Make hamburger icon visible */
 .navbar-toggler-icon {
   width: 24px;
   height: 24px;
@@ -184,73 +165,12 @@ a:hover{
   transition: 0.3s;
 }
 
-/* Mobile and tablet */
-@media (max-width: 991.98px) {
-
-    .search-form {
-        margin-left: auto;
-        margin-right: 10px;
-    }
-
-    .search-hover {
-        width: 50px;
-    }
-
-    .search-hover:hover,
-    .search-hover:focus {
-        width: 200px;
-    }
-
-    .navbar-toggler {
-        flex-shrink: 0;
-    }
-
-    .mobile-bottom-bar {
-        position: fixed;
-
-        bottom: 10px;
-        left: 10px;
-        right: 10px;
-
-        height: 80px;
-
-        background: white;
-
-        border: 2px solid #171717;
-
-        box-shadow: 7px 7px 0 #171717;
-
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-
-        z-index: 1000;
-
-        transform: rotate(-0.5deg);
-    }
-
-    .bottom-nav-button {
-        width: 60px;
-        height: 60px;
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        gap: 3px;
-
-        color: #171717;
-        text-decoration: none;
-
-        border: 2px solid transparent;
-
-        transition: 0.2s;
-    }
-
-    .bottom-nav-button i {
-        font-size: 20px;
-    }
+.movie-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  display: block;
+}
 
 .movie-card:hover {
   transform: rotate(2deg);
