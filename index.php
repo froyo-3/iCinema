@@ -50,7 +50,7 @@
         </div>
     </section>
     <section class="container ">
-      <div class="row cta">
+      <div class="row cta" style="transform: rotate(-.5deg);">
       <div class="col">
         <h2> Looking <br> For <br> More? </h2>
       </div>
@@ -62,7 +62,7 @@
     </section>
 
     <section class="container">
-      <div class="row cta">
+      <div class="row cta" style="transform: rotate(0.5deg);">
       <div class="col">
         <h2> Join <br> The <br> iCinema <br> Family </h2>
       </div>

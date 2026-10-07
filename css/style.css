@@ -181,7 +181,7 @@ a:hover{
   border: 2px solid var(--text);
   box-shadow: 5px 5px var(--text);
   padding: 30px;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 .button {
