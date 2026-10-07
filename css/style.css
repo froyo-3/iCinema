@@ -5,6 +5,14 @@
   --accent: #ffe5e5;
 }
 
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+    pointer-events: none;
+}
+
+
 a:hover{
     color: var(--text);
 }
@@ -16,7 +24,6 @@ a:hover{
   background: white;
   border: 2px solid var(--text);
   box-shadow: 7px 7px var(--text);
-  transform: rotate(-0.5deg);
 }
 
 /* Logo */
@@ -163,6 +170,7 @@ a:hover{
   border: 2px solid var(--text);
   box-shadow: 5px 5px var(--text);
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .movie-card img {
@@ -197,6 +205,27 @@ a:hover{
 
 .button:hover {
   transform: rotate(2deg);
+}
+
+.carousel-item img{
+  object-fit: cover;
+  height: 50rem;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border: 2px solid var(--text) !important;
+    box-shadow: 3px 3px var(--text);
+    opacity: 1;
+}
+
+.carousel-indicators button.active {
+    background-color: var(--accent);
 }
 
 /* Desktop */
