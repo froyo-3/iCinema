@@ -333,4 +333,8 @@ a:hover{
   body {
     padding-bottom: 100px;
   }
+
+  .cta br {
+    display: none;
+  }
 }

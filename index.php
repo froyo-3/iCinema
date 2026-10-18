@@ -18,12 +18,12 @@
 
 <body>
 
-    <?php 
-     include "components/navbar.php"; 
-     ?>
-    <?php 
-     include "components/mobile-quickbar.php"; 
-     ?>
+    <?php
+    include "components/navbar.php";
+    ?>
+    <?php
+    include "components/mobile-quickbar.php";
+    ?>
 
 
     <div id="carouselExampleCaptions" class="carousel slide mt-3">
@@ -98,31 +98,51 @@
             </a>
         </div>
     </section>
-    <section class="container ">
-        <div class="row cta cta-flipped">
-            <div class="col">
-                <h2> Looking <br> For <br> More? </h2>
+    <section class="container">
+        <div class="row cta cta-flipped align-items-center">
+
+            <div class="col-12 col-lg-4 p-3">
+                <h2>Looking  <br> For <br> More?</h2>
             </div>
-            <div class="col text-end">
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores alias cumque sed, corrupti
-                    voluptate nobis iure, expedita nihil, facere voluptatem placeat rerum. Temporibus, vel! Quae
-                    corrupti ad temporibus molestias iste?</p>
-                <a href="#" class="button"> More Films </a>
+
+            <div class="col-12 col-lg-8">
+                <p>
+                    Desc Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Iusto, autem enim modi, rem
+                    est nostrum voluptatibus at atque debitis tempora
+                    obcaecati praesentium cumque laudantium unde suscipit
+                    neque? Incidunt, distinctio placeat?
+                </p>
+
+                <div class="d-flex justify-content-end">
+                    <a href="#" class="button">Join Us</a>
+                </div>
             </div>
+
         </div>
     </section>
 
     <section class="container">
-        <div class="row cta">
-            <div class="col">
-                <h2> Join <br> The <br> iCinema <br> Family </h2>
+        <div class="row cta align-items-center">
+
+            <div class="col-12 col-lg-4 p-3">
+                <h2>Join <br> The <br> iCinema <br> Family</h2>
             </div>
-            <div class="col text-end">
-                <p> Mebership good Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores alias cumque
-                    sed, corrupti voluptate nobis iure, expedita nihil, facere voluptatem placeat rerum. Temporibus,
-                    vel! Quae corrupti ad temporibus molestias iste?</p>
-                <a href="#" class="button"> Join Us </a>
+
+            <div class="col-12 col-lg-8">
+                <p>
+                    Desc Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Iusto, autem enim modi, rem
+                    est nostrum voluptatibus at atque debitis tempora
+                    obcaecati praesentium cumque laudantium unde suscipit
+                    neque? Incidunt, distinctio placeat?
+                </p>
+
+                <div class="d-flex justify-content-end">
+                    <a href="#" class="button">Join Us</a>
+                </div>
             </div>
+
         </div>
     </section>
 
@@ -130,7 +150,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>
