@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg cinema-navbar sticky-top">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">iCinema</a>
+        <a class="navbar-brand" href="index.php">iCinema</a>
 
         <!-- Search -->
         <form class="d-flex search-form" role="search">
@@ -24,18 +24,18 @@
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">films</a>
+                    <a class="nav-link active" href="films.php">films</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">cinema</a>
+                    <a class="nav-link" href="cinema.php">cinema</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">membership</a>
+                    <a class="nav-link" href="membership.php">membership</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"> contact </a>
+                    <a class="nav-link" href="contact.php"> contact </a>
                 </li>
             </ul>
 

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Hello, world!</title>
+    <title>iCinema | Home</title>
 </head>
 
 <body>
@@ -99,7 +99,7 @@
         </div>
     </section>
     <section class="container ">
-        <div class="row cta">
+        <div class="row cta cta-flipped">
             <div class="col">
                 <h2> Looking <br> For <br> More? </h2>
             </div>
