@@ -184,20 +184,23 @@ a:hover {
 }
 
 .cta {
-  background: var(--primary);
+  background: var(--accent);
   border: 2px solid var(--text);
   box-shadow: 5px 5px var(--text);
   padding: 30px;
-  margin: 40px auto;
 }
 
 .cta-flipped {
-  background: var(--accent);
+  background: var(--primary);
+}
+
+.cta-white{
+  background: white;
 }
 
 .button {
   display: inline-block;
-  background: var(--accent);
+  background: var(--primary);
   color: var(--text);
   border: 2px solid var(--text);
   box-shadow: 5px 5px var(--text);
@@ -208,7 +211,7 @@ a:hover {
 }
 
 .cta-flipped .button {
-  background: var(--primary);
+  background: var(--accent);
 }
 
 .button:hover {
@@ -226,6 +229,12 @@ a:hover {
   object-fit: cover;
   height: 50rem;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   filter: invert(1);

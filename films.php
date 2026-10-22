@@ -26,8 +26,8 @@
     ?>
 
 
-    <section class="container">
-        <div class="row cta align-items-center">
+    <section class="container px-4 px-md-3 pt-3">
+        <div class="row cta cta-flipped align-items-center">
 
             <!-- Movie poster -->
             <div class="col-12 col-lg-4 p-3">

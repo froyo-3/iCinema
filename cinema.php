@@ -25,8 +25,8 @@
     include "components/mobile-quickbar.php";
     ?>
 
-    <section class="container">
-        <div class="row cta align-items-center">
+    <section class="container my-3">
+        <div class="row cta cta-flipped align-items-center">
 
             <div class="col-12 col-lg-4 p-3">
                 <h2>About <br> iCinema</h2>
