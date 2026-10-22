@@ -115,7 +115,7 @@
                 </p>
 
                 <div class="d-flex justify-content-end">
-                    <a href="#" class="button">Join Us</a>
+                    <a href="films.php" class="button">Find more films</a>
                 </div>
             </div>
 
@@ -139,7 +139,7 @@
                 </p>
 
                 <div class="d-flex justify-content-end">
-                    <a href="#" class="button">Join Us</a>
+                    <a href="membership.php" class="button">Join Us</a>
                 </div>
             </div>
 
