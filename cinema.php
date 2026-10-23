@@ -20,8 +20,6 @@
 
     <?php
     include "components/navbar.php";
-    ?>
-    <?php
     include "components/mobile-quickbar.php";
     ?>
 
@@ -170,15 +168,15 @@
                         <div class="col-12 p-3">
                             <p>
                             <h2>Accessibility</h2>
-
                             <p><strong>Wheelchair Access</strong></p>
-                            <p>Our cinemas aim to provide step-free access to entrances and accessible routes to key
+                            <p>Our cinema aims to provide step-free access to entrances and accessible routes to key
                                 facilities. Wheelchair spaces and companion seating may be available in selected
                                 screens. Contact your chosen cinema before visiting to confirm available facilities.</p>
 
+
                             <p><strong>Accessible Screenings</strong></p>
                             <p>We aim to help customers enjoy films in ways that suit their needs. Depending on the
-                                cinema and film, accessible screenings may include:</p>
+                                screening, accessible screenings may include:</p>
                             <ul>
                                 <li><strong>Subtitled screenings:</strong> On-screen dialogue and relevant sounds are
                                     displayed as text.</li>
@@ -189,19 +187,17 @@
                             </ul>
 
                             <p><strong>Hearing Assistance</strong></p>
-                            <p>Some locations may offer hearing assistance systems to help customers with hearing loss
-                                follow dialogue more clearly. Contact your local cinema to check which systems are
-                                available.</p>
+                            <p>Our cinema offers hearing assistance systems to help customers with hearing loss
+                                follow dialogue more clearly. Speak to a member of staff to help </p>
 
                             <p><strong>Accessible Facilities</strong></p>
-                            <p>Where available, accessible toilets, lift access and designated seating can help visitors
+                            <p>Accessible toilets, lift access and designated seating can help visitors
                                 move around the cinema more comfortably. Assistance from cinema staff may also be
                                 available upon request.</p>
 
                             <p><strong>Assistance Dogs</strong></p>
-                            <p>Assistance dogs may be permitted in accordance with the cinema's policy and applicable
-                                accessibility requirements. Contact your chosen location before your visit to confirm
-                                arrangements.</p>
+                            <p>Assistance dogs are permitted in accordance with the cinema's policy and applicable
+                                accessibility requirements.</p>
 
                             <p><strong>Need More Information?</strong></p>
                             <p>If you have specific accessibility requirements or would like to ask about facilities
@@ -226,91 +222,95 @@
                 <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <div class="p-3">
-                        <h2>Age Ratings</h2>
-                        <ul>
-                            <li>
-                                <div>
-                                    <h3>U – Universal</h3>
-                                    <p>Suitable for all ages. Generally suitable for children aged 4 and over.</p>
-                                    <p><strong>Potential reasons for this rating:</strong></p>
-                                    <ul>
-                                        <li>Very mild bad language.</li>
-                                        <li>Brief, mild scenes of threat or danger.</li>
-                                        <li>Very mild violence, such as cartoon slapstick.</li>
-                                        <li>Occasional mild rude humour.</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <br>
-                            <li>
-                                <div>
-                                    <h3>PG – Parental Guidance</h3>
-                                    <p>Suitable for general viewing, but some scenes may be unsuitable for young
-                                        children. Parents should consider whether the content is appropriate for their
-                                        child.</p>
-                                    <p><strong>Potential reasons for this rating:</strong></p>
-                                    <ul>
-                                        <li>Mild bad language.</li>
-                                        <li>Moderate threat or scary scenes that may upset younger children.</li>
-                                        <li>Mild violence, without excessive detail.</li>
-                                        <li>References to topics such as bullying or discrimination.</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <br>
-                            <li>
-                                <div>
-                                    <h3>12A – Cinema</h3>
-                                    <p>Films classified 12A are suitable for children aged 12 and over. Children younger
-                                        than 12 may watch only when accompanied by an adult aged 18 or over.</p>
-                                    <p><strong>Potential reasons for this rating:</strong></p>
-                                    <ul>
-                                        <li>Moderate violence, including some detail.</li>
-                                        <li>Strong language used infrequently.</li>
-                                        <li>Moderate threat, horror or disturbing scenes.</li>
-                                        <li>Brief sexual references or moderate references to drugs.</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <br>
-                            <li>
-                                <div>
-                                    <h3>15 – Suitable for 15 and over</h3>
-                                    <p>No one under 15 may watch a 15-rated film in the cinema, even when accompanied by
-                                        an adult.</p>
-                                    <p><strong>Potential reasons for this rating:</strong></p>
-                                    <ul>
-                                        <li>Frequent strong language.</li>
-                                        <li>Strong violence, including bloody or realistic scenes.</li>
-                                        <li>Strong threat, horror or disturbing content.</li>
-                                        <li>Sexual content or references to sexual violence.</li>
-                                        <li>Drug use or references to misuse of substances.</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <br>
-                            <li>
-                                <div>
-                                    <h3>18 – Adults only</h3>
-                                    <p>No one under 18 may watch an 18-rated film in the cinema.</p>
-                                    <p><strong>Potential reasons for this rating:</strong></p>
-                                    <ul>
-                                        <li>Very strong violence or graphic injury detail.</li>
-                                        <li>Strong sexual content or explicit sexual references.</li>
-                                        <li>Very strong language.</li>
-                                        <li>Detailed scenes of horror or sustained disturbing content.</li>
-                                        <li>Drug misuse or other adult themes handled in detail.</li>
-                                    </ul>
-                                </div>
-                            </li>
+                            <h2>Age Ratings</h2>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <h3>U – Universal</h3>
+                                        <p>Suitable for all ages. Generally suitable for children aged 4 and over.</p>
+                                        <p><strong>Potential reasons for this rating:</strong></p>
+                                        <ul>
+                                            <li>Very mild bad language.</li>
+                                            <li>Brief, mild scenes of threat or danger.</li>
+                                            <li>Very mild violence, such as cartoon slapstick.</li>
+                                            <li>Occasional mild rude humour.</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <br>
+                                <li>
+                                    <div>
+                                        <h3>PG – Parental Guidance</h3>
+                                        <p>Suitable for general viewing, but some scenes may be unsuitable for young
+                                            children. Parents should consider whether the content is appropriate for
+                                            their
+                                            child.</p>
+                                        <p><strong>Potential reasons for this rating:</strong></p>
+                                        <ul>
+                                            <li>Mild bad language.</li>
+                                            <li>Moderate threat or scary scenes that may upset younger children.</li>
+                                            <li>Mild violence, without excessive detail.</li>
+                                            <li>References to topics such as bullying or discrimination.</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <br>
+                                <li>
+                                    <div>
+                                        <h3>12A – Cinema</h3>
+                                        <p>Films classified 12A are suitable for children aged 12 and over. Children
+                                            younger
+                                            than 12 may watch only when accompanied by an adult aged 18 or over.</p>
+                                        <p><strong>Potential reasons for this rating:</strong></p>
+                                        <ul>
+                                            <li>Moderate violence, including some detail.</li>
+                                            <li>Strong language used infrequently.</li>
+                                            <li>Moderate threat, horror or disturbing scenes.</li>
+                                            <li>Brief sexual references or moderate references to drugs.</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <br>
+                                <li>
+                                    <div>
+                                        <h3>15 – Suitable for 15 and over</h3>
+                                        <p>No one under 15 may watch a 15-rated film in the cinema, even when
+                                            accompanied by
+                                            an adult.</p>
+                                        <p><strong>Potential reasons for this rating:</strong></p>
+                                        <ul>
+                                            <li>Frequent strong language.</li>
+                                            <li>Strong violence, including bloody or realistic scenes.</li>
+                                            <li>Strong threat, horror or disturbing content.</li>
+                                            <li>Sexual content or references to sexual violence.</li>
+                                            <li>Drug use or references to misuse of substances.</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <br>
+                                <li>
+                                    <div>
+                                        <h3>18 – Adults only</h3>
+                                        <p>No one under 18 may watch an 18-rated film in the cinema.</p>
+                                        <p><strong>Potential reasons for this rating:</strong></p>
+                                        <ul>
+                                            <li>Very strong violence or graphic injury detail.</li>
+                                            <li>Strong sexual content or explicit sexual references.</li>
+                                            <li>Very strong language.</li>
+                                            <li>Detailed scenes of horror or sustained disturbing content.</li>
+                                            <li>Drug misuse or other adult themes handled in detail.</li>
+                                        </ul>
+                                    </div>
+                                </li>
 
-                        </ul>
+                            </ul>
 
-                        <p><em>Age ratings are determined by the British Board of Film Classification (BBFC). These
-                                examples are general guidance only; a film's rating depends on its overall content and
-                                context, and not every film with these elements will receive the same
-                                classification.</em></p>
-</div>
+                            <p><em>Age ratings are determined by the British Board of Film Classification (BBFC). These
+                                    examples are general guidance only; a film's rating depends on its overall content
+                                    and
+                                    context, and not every film with these elements will receive the same
+                                    classification.</em></p>
+                        </div>
 
                     </div>
                 </div>

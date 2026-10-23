@@ -293,10 +293,22 @@ a:hover {
   color: var(--text) !important;
 }
 
+.cta .accordion-button{
+  background: var(--primary) !important;
+}
+
 .accordion-item {
   border: 2px solid var(--text) !important;
   box-shadow: 5px 5px var(--text);
   margin-bottom: 10px;
+}
+
+.accordion-body .form-control {
+    color: var(--text);
+    border: 2px solid var(--text);
+    border-radius: 0;
+    padding: 12px;
+    box-shadow: 4px 4px var(--text);
 }
 
 ul{

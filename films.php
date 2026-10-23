@@ -20,8 +20,6 @@
 
     <?php
     include "components/navbar.php";
-    ?>
-    <?php
     include "components/mobile-quickbar.php";
     ?>
 
