@@ -30,14 +30,14 @@
         <div class="row cta cta-flipped align-items-center">
 
             <!-- Movie poster -->
-            <div class="col-12 col-lg-4 p-3">
+            <div class="col-12 col-md-4 p-3">
                 <a href="#"><img src="https://placehold.co/600x400" alt="Movie poster"
                         class="img-fluid movie-poster"></a>
             </div>
 
             <!-- Movie information -->
-            <div class="col-12 col-lg-8">
-                <div class="row align-items-center g-2 g-lg-5">
+            <div class="col-12 col-md-8">
+                <div class="row align-items-center g-2 g-md-5">
                     <div class="col-auto">
                         <h3>Title</h3>
                     </div>
@@ -61,7 +61,7 @@
                 <h4> Showing Today: </h4>
 
                 <!-- Showtime buttons -->
-                <div class="row row-cols-2 row-cols-lg-3 g-3">
+                <div class="row row-cols-2 row-cols-md-3 g-3">
                     <div class="col">
                         <a href="#" class="button d-block text-center">10:00</a>
                     </div>

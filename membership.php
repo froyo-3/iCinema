@@ -25,10 +25,10 @@
     include "components/mobile-quickbar.php";
     ?>
 
-    <section class="container my-4 px-4 px-md-3">
+    <section class="container my-4 px-4 px-lg-3">
         <div class="row align-items-center g-4">
 
-            <div class="col-12 col-md-6 text-center text-md-start order-2 order-md-1">
+            <div class="col-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
                 <h2>Join the iCinema Family</h2>
                 <p>More films. More rewards. More reasons to visit.</p>
                 <a href="membership.php" class="button">
@@ -36,36 +36,36 @@
                 </a>
             </div>
 
-            <div class="col-12 col-md-6 order-1 order-md-2">
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
                 <img src="https://placehold.co/600x400" alt="Movie poster" class="img-fluid w-100">
             </div>
 
         </div>
     </section>
 
-    <section class="container mt-4 px-4 px-md-0">
+    <section class="container mt-4 px-4 px-lg-0">
         <div class="row g-4">
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-lg-3">
                 <div class="cta cta-white">
                     <h3>Benifit</h3>
                     <p>Exclusive benifit</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-lg-3">
                 <div class="cta cta-white">
                     <h3>Benifit</h3>
                     <p>Exclusive benifit</p>
                 </div>
             </div>
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-lg-3">
                 <div class="cta cta-white">
                     <h3>Benifit</h3>
                     <p>Exclusive benifit</p>
                 </div>
             </div>
 
-            <div class="col-6 col-md-3">
+            <div class="col-6 col-lg-3">
                 <div class="cta cta-white">
                     <h3>Benifit</h3>
                     <p>Exclusive benifit</p>
@@ -73,9 +73,9 @@
             </div>
     </section>
 
-    <section class="container mt-3 px-4 px-md-10">
+    <section class="container mt-3 px-4 px-lg-10">
         <div class="row g-3">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4">
                 <div class="cta cta-flipped ">
                     <h3>Tier 1</h3>
                     <ul>
@@ -91,7 +91,7 @@
 
 
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4">
                 <div class="cta ">
                     <h3>Tier 1</h3>
                     <ul>
@@ -105,7 +105,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-lg-4">
                 <div class="cta cta-flipped ">
                     <h3>Tier 1</h3>
                     <ul>
@@ -122,7 +122,7 @@
         </div>
     </section>
 
-    <section class="container my-3 px-4 px-md-0">
+    <section class="container my-3 px-4 px-lg-0">
         <div class="row cta cta-white align-items-center">
 
             <div class="col-12 col-lg-4 p-3">

@@ -37,10 +37,10 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <section class="container my-4 pb-3 px-4 px-md-5">
+                <section class="container my-4 pb-3 px-4 px-lg-5">
                     <div class="row align-items-center g-4">
 
-                        <div class="col-12 col-md-4 text-center text-md-start order-2 order-md-1">
+                        <div class="col-12 col-lg-4 text-center text-lg-start order-2 order-lg-1">
                             <h2>Movie Title</h2>
                             <p>A super awesome description of the move</p>
                             <a href="films.php" class="button">
@@ -48,7 +48,7 @@
                             </a>
                         </div>
 
-                        <div class="col-12 col-md-8 order-1 order-md-2">
+                        <div class="col-12 col-lg-8 order-1 order-lg-2">
                             <img src="https://placehold.co/600x400" alt="Movie poster" class="img-fluid w-100">
                         </div>
 
@@ -56,10 +56,10 @@
                 </section>
             </div>
             <div class="carousel-item">
-                <section class="container my-4 pb-3 px-4 px-md-5">
+                <section class="container my-4 pb-3 px-4 px-lg-5">
                     <div class="row align-items-center g-4">
 
-                        <div class="col-12 col-md-4 text-center text-md-start order-2 order-md-1">
+                        <div class="col-12 col-lg-4 text-center text-lg-start order-2 order-lg-1">
                             <h2>Movie Title</h2>
                             <p>A super awesome description of the move</p>
                             <a href="films.php" class="button">
@@ -67,7 +67,7 @@
                             </a>
                         </div>
 
-                        <div class="col-12 col-md-8 order-1 order-md-2">
+                        <div class="col-12 col-lg-8 order-1 order-lg-2">
                             <img src="https://placehold.co/600x400" alt="Movie poster" class="img-fluid w-100">
                         </div>
 
@@ -75,10 +75,10 @@
                 </section>
             </div>
             <div class="carousel-item">
-                <section class="container my-4 pb-3 px-4 px-md-5">
+                <section class="container my-4 pb-3 px-4 px-lg-5">
                     <div class="row align-items-center g-4">
 
-                        <div class="col-12 col-md-4 text-center text-md-start order-2 order-md-1">
+                        <div class="col-12 col-lg-4 text-center text-lg-start order-2 order-lg-1">
                             <h2>Movie Title</h2>
                             <p>A super awesome description of the move</p>
                             <a href="films.php" class="button">
@@ -86,7 +86,7 @@
                             </a>
                         </div>
 
-                        <div class="col-12 col-md-8 order-1 order-md-2">
+                        <div class="col-12 col-lg-8 order-1 order-lg-2">
                             <img src="https://placehold.co/600x400" alt="Movie poster" class="img-fluid w-100">
                         </div>
 
@@ -131,7 +131,7 @@
             </a>
         </div>
     </section>
-    <section class="container px-4 px-md-3">
+    <section class="container px-4 px-lg-3">
         <div class="row cta align-items-center ">
 
             <div class="col-12 col-lg-4 p-3">
@@ -155,7 +155,7 @@
         </div>
     </section>
 
-    <section class="container my-3 px-4 px-md-3">
+    <section class="container my-3 px-4 px-lg-3">
         <div class="row cta cta-flipped align-items-center">
 
             <div class="col-12 col-lg-4 p-3">
