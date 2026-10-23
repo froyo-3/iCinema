@@ -5,6 +5,10 @@
   --accent: #ffe5e5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
   user-select: none;
   -webkit-user-drag: none;
@@ -317,6 +321,11 @@ ul{
   margin: 0; /* Remove margins */
 }
 
+#faqs,
+#contact,
+#tiers {
+    scroll-margin-top: 90px;
+}
 
 /* Desktop */
 @media (min-width: 992px) {

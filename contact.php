@@ -39,8 +39,8 @@
                 </p>
 
                 <div class="d-flex justify-content-end gap-3">
-                    <a href="membership.php" class="button">Contact Us</a>
-                    <a href="membership.php" class="button">FAQs</a>
+                    <a href="#contact" class="button">Contact Us</a>
+                    <a href="#faqs" class="button">FAQs</a>
                 </div>
             </div>
 
@@ -49,7 +49,7 @@
 
 
 
-    <section class="container px-3">
+    <section id="faqs" class="container px-3">
         <div class="accordion" id="accordionExample">
 
             <!-- 1. Booking Tickets -->
@@ -449,7 +449,7 @@
         </div>
     </section>
 
-    <section class="container my-3 px-4 px-lg-0">
+    <section id="contact" class="container my-3 px-4 px-lg-0 ">
         <div class="row cta cta-white align-items-center">
 
             <div class="col-12 col-lg-4 p-3">
@@ -458,19 +458,19 @@
 
             <div class="col-12 col-lg-8">
                 <p>
-                    <p><strong>Contact Us</strong></p>
-                            <p>
-                                If you have not found your answer in the FAQs, please get in touch with our team before your visit.
-                            </p>
+                <p><strong>Contact Us</strong></p>
+                <p>
+                    If you have not found your answer in the FAQs, please get in touch with our team before your visit.
+                </p>
 
-                            <ul>
-                                <li><strong>Telephone:</strong> +44 123456789</li>
-                                <li><strong>Email:</strong> admin@iCinema.com </li>
-                            </ul>
-                            <p></p>
-                            <p>
-                                or use the form below
-                                </p>
+                <ul>
+                    <li><strong>Telephone:</strong> +44 123456789</li>
+                    <li><strong>Email:</strong> admin@iCinema.com </li>
+                </ul>
+                <p></p>
+                <p>
+                    or use the form below
+                </p>
                 </p>
 
                 <div class="accordion" id="accordionExample">

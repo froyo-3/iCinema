@@ -29,7 +29,7 @@
             <div class="col-12 col-lg-6 text-center text-lg-start order-2 order-lg-1">
                 <h2>Join the iCinema Family</h2>
                 <p>More films. More rewards. More reasons to visit.</p>
-                <a href="membership.php" class="button">
+                <a href="#tiers" class="button">
                     Become a Member
                 </a>
             </div>
@@ -71,7 +71,7 @@
             </div>
     </section>
 
-    <section class="container mt-3 px-4 px-lg-10">
+    <section id="tiers" class="container mt-3 px-4 px-lg-10">
         <div class="row g-3">
             <div class="col-12 col-lg-4">
                 <div class="cta cta-flipped ">
